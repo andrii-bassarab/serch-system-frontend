@@ -14,7 +14,7 @@
   <li>In the case of a request that is already being processed, it doesn't initiate a second request. Instead, it waits for the first request to complete and then returns the result.</li>
 </ol>
 
-At first setup (BE)[https://github.com/andrii-bassarab/serch-system-backend]
+At first setup [BE](https://github.com/andrii-bassarab/serch-system-backend)
 
 ### Install packeges
 
