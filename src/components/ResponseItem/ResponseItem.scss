@@ -1,0 +1,44 @@
+.responseItem {
+    margin-top: 2em;
+    box-shadow: 0 3px 2px -2px gray;
+    padding-bottom: 0.5em;
+
+    &__headerLabel {
+        display: flex;
+        flex-direction: column;
+
+        &:hover .responseItem__title {
+            text-decoration: underline;
+        }
+    }
+
+    &__title {
+        text-align: left;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+    }
+
+    &__domainLabel {
+        color: rgb(70, 53, 53);
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__domain {
+        line-height: 1em;
+    }
+
+    &__image {
+        width: 2em;
+        margin-right: 1em;
+    }
+
+    &__summary {
+        text-align: justify;
+        margin-top: 0.2em;
+    }
+}

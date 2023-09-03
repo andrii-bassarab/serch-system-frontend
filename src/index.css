@@ -1,0 +1,75 @@
+@import 'normalize.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: linear-gradient(90deg, rgba(230,223,190,1) 0%, rgba(227,225,181,1) 35%, rgba(229,230,179,1) 100%);
+  transition: all 0.3;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+a:visited {
+  color: rgb(147, 77, 208);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+p {
+  margin: 0;
+}
+
+label {
+  display: inline-block;
+}
+
+input, button {
+  border-radius: 8px;
+  border: none;
+  border: 1px solid transparent;
+  outline: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}

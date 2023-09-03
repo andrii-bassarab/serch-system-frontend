@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  flex: 1;
+}
+
+.error-fetch {
+  font-size: 2em;
+  color: red;
+  margin-top: 1em;
+}
+
+.title {
+  width: fit-content;
+  margin: 0.5em auto;
+  padding: 0.1em;
+  font-style: italic;
+  border-radius: 5px;
+}
